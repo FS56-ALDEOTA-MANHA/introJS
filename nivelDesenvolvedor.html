@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubra seu nível</title>
+</head>
+<body>
+  <main>
+    <form>
+      <legend>Selecione o Tempo de Experiência:</legend>
+
+      <input type="radio" name="nivel" id="trainee" value="trainee">
+      <label for="trainee">Menos de 1 ano</label>
+      
+      <input type="radio" name="nivel" id="jr" value="jr">
+      <label for="jr">Entre 1 a 2 anos</label>
+
+      <input type="radio" name="nivel" id="pl" value="pl">
+      <label for="pl">Entre 2 a 4 anos</label>
+
+      <input type="radio" name="nivel" id="sr" value="sr">
+      <label for="sr">Mais de 4 anos</label>
+      <button type="button" onclick="verificarNivel()">Enviar</button>
+    </form>
+    <p id="resposta"></p>
+  </main>
+  <script src="nivelDesenvolvedor.js"></script>
+</body>
+</html>
