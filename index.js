@@ -7,6 +7,7 @@
 
 //Number 
 0
+12
 10.5
 
 //Boolean
@@ -32,7 +33,7 @@ function nomeDaFuncao () {
   console.log(fruta)
 }
 
-let turma
+let turma;
 
 
 //Estrutura de Array

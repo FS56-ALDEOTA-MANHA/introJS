@@ -1,10 +1,10 @@
 // //Métodos de entrada
-// // const nome = prompt("Digite seu nome")
+//  const nome = prompt("Digite seu nome")
 
-// // const notificacao = confirm("Deseja receber notificações")
+// const notificacao = confirm("Deseja receber notificações")
 
 // //Métodos de saída
-// // alert(notificacao)
+// alert(notificacao)
 
 // console.log()
 
@@ -12,7 +12,7 @@
 
 // //Operações aritméticas 
 
-// let soma = "1" + 2 //output: 3
+let soma = Number("1") + 2 //output: 3
 
 
 // const numero1 = Number(prompt("Digite um número"))
@@ -39,9 +39,9 @@ console.log(total)
 // Crie duas expressões que retornem NaN
 
 const number = Number("10%")
-let numero2 = parseInt("x")
-console.log(number)
-console.log(numero2)
+let numero2 = parseInt(10.8)
+console.log(number) //NaN
+console.log("numero2:",numero2)
 
 
 const temperatura = [-40, -50, -50, -30]
@@ -55,8 +55,23 @@ console.log(media)
 
 // Incremente o número 5 e retorne o seu valor incrementado
 
+let incremento = 5
+
+incremento++
+
+console.log("incremento:", incremento)
+
 // Como dividir o peso por 2? 
-// let numero = '60';
-// let unidade = 'kg';
-// let peso = numero + unidade;
+let numero = '60';
+let unidade = 'kg';
+let peso = numero + unidade;
+
+
+numero /= 2
+
+console.log("pesoDiv2:",numero)
+
+console.log(peso = numero + unidade)
+
+
 
